@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  height: 400px;
+  width: 275px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#valor {
+  color: black;
+  font-size: 175px;
+  margin-left: 90px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#paloArriba {
+  font-size: 75px;
+  height: 100px;
+  padding-left: 15px;
+}
+
+#paloAbajo {
+  font-size: 75px;
+  height: 100px;
+  transform: rotate(180deg);
+  display: flex;
+  padding-right: 30px;
+}
